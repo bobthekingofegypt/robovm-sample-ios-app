@@ -17,11 +17,11 @@
       <plugin>
         <groupId>org.robovm</groupId>
         <artifactId>robovm-maven-plugin</artifactId>
-        <version>0.0.3.1</version>
+        <version>0.0.4.1</version>
         <configuration>
           <mainClass>org.robovm.sample.ios.RoboVMSampleIOSApp</mainClass>
-          <os>ios</os>
-          <arch>x86</arch>
+          <propertiesFile>robovm.properties</propertiesFile>
+          <configFile>robovm.xml</configFile>
         </configuration>
       </plugin>
     </plugins>
